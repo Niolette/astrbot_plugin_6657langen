@@ -1,0 +1,31 @@
+{
+  "search_mode": {
+    "description": "搜索模式",
+    "type": "string",
+    "default": "full",
+    "hint": "full = 遍历全站所有页面搜索（结果完整但较慢）；random = 随机抽取若干页搜索（速度快但结果不完整）",
+    "options": ["full", "random"],
+    "labels": ["全站搜索", "随机抽样搜索"]
+  },
+  "search_pages": {
+    "description": "随机搜索页数",
+    "type": "int",
+    "default": 10,
+    "hint": "随机抽样搜索模式下扫描的页数（不含第一页），仅在搜索模式为「随机抽样搜索」时生效",
+    "condition": {
+      "search_mode": "random"
+    }
+  },
+  "page_size": {
+    "description": "每页请求数量",
+    "type": "int",
+    "default": 200,
+    "hint": "每次 API 请求获取的条目数，越大则总请求次数越少，建议 50-200"
+  },
+  "concurrent_limit": {
+    "description": "并发请求上限",
+    "type": "int",
+    "default": 8,
+    "hint": "同时发起的最大网络请求数，过高可能触发服务端限流，建议 3-10"
+  }
+}
