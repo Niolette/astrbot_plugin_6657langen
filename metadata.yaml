@@ -1,6 +1,6 @@
 name: astrbot_plugin_6657langen
 display_name: 玩机器6657烂梗库
 desc: 从sb6657.cn烂梗库中随机抽取或按关键词搜索斗鱼玩机器的经典烂梗弹幕，让群聊更有乐趣
-version: v1.0.0
+version: v1.0.1
 author: Niolette
 repo: "https://github.com/Niolette/astrbot_plugin_6657langen"
