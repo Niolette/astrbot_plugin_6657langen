@@ -57,7 +57,7 @@ donk：载大哥我又坐牢了，看你狙几个每月挣一个冠军我就心�
 
 ## 开发说明
 
-本插件完全由 AI（GitHub Copilot / Claude）开发，包括代码编写、API 调试、文档撰写及打包发布。
+本插件大部分由 AI（GitHub Copilot / Claude）开发，包括代码编写、API 调试、文档撰写及打包发布。
 
 ## 许可证
 
